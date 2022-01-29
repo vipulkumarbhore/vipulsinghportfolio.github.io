@@ -378,10 +378,10 @@ header .navbar ul li a:hover{
     font-size: 1.7rem;
     padding-top: .5rem;
 }
-.about .content .btn{
+/* .about .content .btn{
     margin: 2rem;
     margin-top: 2rem;
-}
+} */
 
 /* <!----education section---> */
 .education .box-container{
