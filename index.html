@@ -257,16 +257,24 @@
             </div>
     
         </div>
+
+        <h2>Contect Us</h2>
     
-        <form action="https://formspree.io/f/xqkodvgr" method="POST">
+    <form action="mail.php" method="post">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br><br>
     
-            <input type="text" name="name" placeholder="name" class="box">
-            <input type="email" name="email" placeholder="email" class="box">
-            <input type="text" name="subject" placeholder="subject" class="box">
-            <textarea name="massage" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
-            <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i> </button>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br><br>
     
-        </form>
+    <label for="subject">Subject:</label><br>
+    <input type="text" id="subject" name="subject"><br><br>
+    
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message"></textarea><br><br>
+    
+    <input type="submit" value="Submit">
+</form>
     
     </div>
     </section>
